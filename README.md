@@ -1,2 +1,8 @@
-# 2021-Fall_Python-Algorithm-
-2021 Fall Semester Algorithm Practice
+# Algorithm Practice
+Algorithm Practice
+
+- 2021 Fall Semester : Introduction to Algorithms Assignment
+- BOJ 
+- Leetcode
+
+python3 used
