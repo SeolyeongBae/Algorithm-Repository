@@ -1,3 +1,6 @@
+#문제 유형: 문자, 구현
+#dict.keys를 몰라서 좀 헤맸다~ dict.keys()를 하면 배열로 리턴이 되지 않아서 좀 까다롭다 ㅎㅎ
+
 def sol(name):
     pdict = {}
     for i in range(len(name)):
@@ -18,7 +21,7 @@ def sol(name):
     half = ''
     odd_char = ''
 
-    keys = [k for k in pdict.keys()]
+    keys = list(pdict.keys())
     keys.sort()
     for k in keys:
         if pdict[k] % 2 == 1:
