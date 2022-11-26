@@ -51,7 +51,6 @@ def calc_next(i, j, direction, amount, r, c):
     if amount == 0:
         return i, j
 
-
     if direction == 'D':
         req_hor = r - i if amount > (r - i) else amount
         return calc_next(i + req_hor , j, 'R', amount - req_hor, r, c)
