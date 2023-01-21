@@ -26,3 +26,4 @@ for _ in range(T):
     nums.append(i)
 
 sol(nums)
+
